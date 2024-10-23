@@ -45,4 +45,10 @@ print(3==2 and 3==4)
 print(3==3 or 3==4)
 print(not 3==4)
 
-# 80 
+# Lab Task1. make a program where ask user to enter name "admin" and "password" is 12345(numeric) when both are correct it should show you login successful 
+ or Incorrect usernamer or Incorrect password
+
+# Lab Task2. Simple ATM Machine
+Prompt the user to enter a PIN (e.g., 1234).
+If the correct PIN is entered, allow the user to check their balance or withdraw money. Otherwise, print "Incorrect PIN."
+
