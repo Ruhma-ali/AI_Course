@@ -1,0 +1,248 @@
+1: Make 2 programs of each data type.
+Numeric Types:
+⦁	Integer (int):
+1)
+
+a = 10
+b = 20
+sum = a + b
+print( "Sum of a + b is equal to", sum )
+
+Output:
+ 
+2)
+a = 10
+b = 20
+result = a * b
+print( "multiplication of a * b is equal to", result )
+
+Output:
+ 
+
+⦁	Float (float)
+1)
+a = 45.56
+b = 34.67
+result = a + b
+print( "\n sum of a + b is equal to", result)
+
+
+output:
+ 
+
+2)
+a = 45.56
+b = 34.67
+result = a / b
+print( "\n answer of a / b is equal to", result)
+
+output:
+ 
+
+
+
+⦁	Complex (complex):
+1)
+a = 3 + 5j
+b = 5 + 4j
+result = a + b
+print( "\n answer of a + b is equal to : ", result)
+
+output:
+ 
+
+2)
+a = 3 + 5j
+b = 5 + 4j
+result = a * b
+print( "\n answer of a * b is equal to : ", result)
+
+output:
+
+ 
+Boolean Type:
+1)
+a = 5
+b = 10
+print(a > b ) # Flase  
+
+
+output:
+ 
+
+2)
+a = 5
+b = 10
+print(a == b ) # Flase  
+
+
+output:
+ 
+
+
+
+
+Sequence Types:
+⦁	String (str)
+1)
+frist_stirng = "Piyar Ali"
+second_string = "Soomro"
+third_string = "BIT-23F-019"
+print(frist_stirng + " "+ second_string + "  " + third_string )
+Output:
+ 
+
+2)
+a = "Piyar Ali "
+b = "Soomro"
+print(len(a) + len(b))
+
+
+output:
+ 
+
+Tuple (tuple):
+1)
+my_tuple = (10, 20, 30)
+print(my_tuple[0])
+
+
+
+output:
+ 
+
+2)
+my_tuple = (1, 2, 3, 4)
+print(len(my_tuple))
+
+output:
+
+ 
+
+Mapping Type:
+1)
+# Creating a simple dictionary
+person = {"name": "Piyar Ali Soomro", "age": 21 , "id": 19  }
+
+# Accessing values using keys
+print("Name:", person["name"])  
+print("Age:", person["age"])   
+print("id:",person["id"])
+
+output:
+ 
+Set Types:
+set_of_Numbers_set = {1, 2, 3,4,5,6,7,8,9,10,11,12}
+print(set_of_Numbers_set)
+
+output:
+ 
+Boolean (bool):
+a = 5
+b = 10
+print(a > b)  # False
+
+ 
+
+
+
+
+2: Make 10 shapes using string:
+Code:
+# Define number of rows for each shape
+n = 5
+
+# 1. Square
+print("Square:")
+for i in range(n):
+    print("* " * n)
+
+# 2. Right Triangle
+print("\nRight Triangle:")
+for i in range(1, n + 1):
+    print("* " * i)
+
+# 3. Isosceles Triangle
+print("\nIsosceles Triangle:")
+for i in range(n):
+    print(" " * (n - i - 1) + "* " * (i + 1))
+
+# 4. Diamond
+print("\nDiamond:")
+for i in range(n):
+    print(" " * (n - i - 1) + "* " * (i + 1))
+for i in range(n - 1):
+    print(" " * (i + 1) + "* " * (n - i - 1))
+
+# 5. Hollow Square
+print("\nHollow Square:")
+for i in range(n):
+    if i == 0 or i == n - 1:
+        print("* " * n)
+    else:
+        print("*" + "  " * (n - 2) + " *")
+
+# 6. Hollow Right Triangle
+print("\nHollow Right Triangle:")
+for i in range(n):
+    if i == 0 or i == n - 1:
+        print("* " * (i + 1))
+    else:
+        print("*" + "  " * (i - 1) + " *")
+
+# 7. Hollow Isosceles Triangle
+print("\nHollow Isosceles Triangle:")
+for i in range(n):
+    if i == 0:
+        print(" " * (n - 1) + "*")
+    elif i == n - 1:
+        print("* " * (2 * n - 1))
+    else:
+        print(" " * (n - i - 1) + "*" + " " * (2 * i - 1) + "*")
+
+# 8. X Shape
+print("\nX Shape:")
+for i in range(n):
+    print(" " * i + "*" + " " * (2 * (n - i - 1) - 1) + "*" * (i < n - 1))
+
+# 9. Plus Shape
+print("\nPlus Shape:")
+for i in range(n):
+    if i == n // 2:
+        print("* " * n)
+    else:
+        print(" " * (n - 1) + "*")
+
+# 10. Hourglass
+print("\nHourglass:")
+for i in range(n):
+    print(" " * i + "* " * (n - i))
+for i in range(1, n):
+    print(" " * (n - i - 1) + "* " * (i + 1))
+
+
+
+
+
+
+
+
+
+
+Output:
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
